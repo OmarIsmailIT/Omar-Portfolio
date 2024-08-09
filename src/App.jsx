@@ -4,7 +4,7 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Technologies from "./components/Technologies";
-import Projects from "./components/projects";
+import Projects from "./components/Projects";
 
 function App() {
   return (
