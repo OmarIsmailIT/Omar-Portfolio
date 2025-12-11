@@ -4,11 +4,14 @@ import project3 from "../assets/spaceship_travel-system.png";
 import project4 from "../assets/coral-e-commercs.jpg";
 import project5 from "../assets/advisory-system.jpg"; 
 
-export const HERO_CONTENT = `I'm Omar Ismail, a dedicated Backend Engineer with a strong foundation in developing robust and efficient web applications. As a recent Computer Science graduate (2025), I've honed my skills in backend technologies, including Node.js, Express.js, MySQL, and MongoDB, through hands-on projects and internships.
+export const HERO_CONTENT = `Backend / Full‑Stack Engineer with hands‑on experience designing scalable web applications and integrating AI solutions. 
+complemented by internships at Paltel and TAP. Skilled in Node.js, Express.js, SQL/NoSQL databases, and modern full‑stack 
+frameworks (Next.js, React.js). Completed advanced training in AI Programming with Python & TensorFlow (Google/Udacity/SPARK) 
+and a Full‑Stack Bootcamp (Zakey.tech). Proven ability to deliver secure, efficient systems and polished projects such as SkillSwap and 
+an Image Classifier. Adaptable to new technologies and workflows to meet evolving project needs, and eager to contribute to 
+innovative software solutions.`;
 
-I am passionate about creating seamless integrations between front-end and back-end technologies. My goal is to contribute to impactful projects where I can leverage my technical expertise to build scalable software solutions that solve real-world problems and enhance user experiences.`;
-
-export const ABOUT_TEXT = `I'm a recent Computer Science graduate recognized for proficiency in diverse programming languages and database management technologies. My journey includes valuable experience gained through internships at Paltel and TAP Careers, and intensive bootcamps at Zakey.tech and Google/Udacity.
+export const ABOUT_TEXT = `I'm a Computer Science recognized for proficiency in diverse programming languages and database management technologies. My journey includes valuable experience gained through internships at Paltel and TAP Careers, and intensive bootcamps at Zakey.tech and Google/Udacity.
 
 Adept at analytical thinking and creative problem-solving, I thrive in collaborative team environments and pride myself on being a quick learner. One of my significant achievements is the development of an e-commerce system and a skill-exchange platform, demonstrating my expertise in backend technologies and database management. Eager to contribute these skills and continue my growth, I am seeking a challenging backend developer role.`;
 

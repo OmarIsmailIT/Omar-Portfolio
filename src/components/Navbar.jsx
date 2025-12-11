@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a 
-          href="https://www.linkedin.com/in/omar-ismail-898436254/" 
+          href="https://www.linkedin.com/in/omar-ismail-software-development/"
           target="_blank" 
           rel="noopener noreferrer"
           className="hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
@@ -20,24 +20,12 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
         <a 
-          href="https://github.com/OmarIsmail12" 
+          href="https://github.com/OmarIsmailIT"
           target="_blank" 
           rel="noopener noreferrer"
           className="hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
         >
           <FaGithub />
-        </a>
-        <a 
-          href="#" 
-          className="hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
-        >
-          <FaInstagram />
-        </a>
-        <a 
-          href="#" 
-          className="hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
-        >
-          <FaSquareXTwitter />
         </a>
       </div>
     </nav>
