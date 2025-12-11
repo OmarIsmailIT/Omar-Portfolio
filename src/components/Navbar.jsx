@@ -1,46 +1,47 @@
-// import logo from "../assets/omar ismail.mp4";
-import logo from "../assets/omar ismail.png";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import logo from "../assets/logo.png";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav className=" mb-20 flex items-center justify-between py-6">
+    <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
-        {/* <video
-          src={logo}
-          autoPlay
-          muted
-          className="w-20"
-        /> */}
-        <img src={logo} alt="logo" className="w-20 mx-2" />
+        <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent ml-4">
+          OI
+        </h1>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a
-          href="https://www.linkedin.com/in/omar-ismail-software-development"
-          target="_blank"
+        <a 
+          href="https://www.linkedin.com/in/omar-ismail-898436254/" 
+          target="_blank" 
           rel="noopener noreferrer"
+          className="hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
         >
           <FaLinkedin />
         </a>
-        <a
-          href="https://github.com/OmarIsmailIT"
-          target="_blank"
+        <a 
+          href="https://github.com/OmarIsmail12" 
+          target="_blank" 
           rel="noopener noreferrer"
+          className="hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
         >
           <FaGithub />
         </a>
-        <a
-          href="https://www.facebook.com/omar.ismail.3726"
-          target="_blank"
-          rel="noopener noreferrer"
+        <a 
+          href="#" 
+          className="hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
         >
-          <FaFacebook />
+          <FaInstagram />
+        </a>
+        <a 
+          href="#" 
+          className="hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
+        >
+          <FaSquareXTwitter />
         </a>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
